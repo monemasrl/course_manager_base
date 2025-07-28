@@ -1,0 +1,60 @@
+[submodule "addons/calendar"]
+	path = addons/calendar
+	url = https://github.com/OCA/calendar.git
+	branch = 16.0
+[submodule "addons/connector"]
+	path = addons/connector
+	url = https://github.com/OCA/connector.git
+	branch = 16.0
+[submodule "addons/event"]
+	path = addons/event
+	url = https://github.com/OCA/event.git
+	branch = 16.0
+[submodule "addons/l10n-italy"]
+	path = addons/l10n-italy
+	url = https://github.com/OCA/l10n-italy.git
+	branch = 16.0
+[submodule "addons/partner-contact"]
+	path = addons/partner-contact
+	url = https://github.com/OCA/partner-contact.git
+	branch = 16.0
+[submodule "addons/queue"]
+	path = addons/queue
+	url = https://github.com/OCA/queue.git
+	branch = 16.0
+[submodule "addons/reporting-engine"]
+	path = addons/reporting-engine
+	url = https://github.com/OCA/reporting-engine.git
+	branch = 16.0
+[submodule "addons/rest-framework"]
+	path = addons/rest-framework
+	url = https://github.com/OCA/rest-framework.git
+	branch = 16.0
+[submodule "addons/server-auth"]
+	path = addons/server-auth
+	url = https://github.com/OCA/server-auth.git
+	branch = 16.0
+[submodule "addons/server-brand"]
+	path = addons/server-brand
+	url = https://github.com/OCA/server-brand.git
+	branch = 16.0
+[submodule "addons/server-tools"]
+	path = addons/server-tools
+	url = https://github.com/OCA/server-tools.git
+	branch = 16.0
+[submodule "addons/server-ux"]
+	path = addons/server-ux
+	url = https://github.com/OCA/server-ux.git
+	branch = 16.0
+[submodule "addons/social"]
+	path = addons/social
+	url = https://github.com/OCA/social.git
+	branch = 16.0
+[submodule "addons/spreadsheet"]
+	path = addons/spreadsheet
+	url = https://github.com/OCA/spreadsheet.git
+	branch = 16.0
+[submodule "addons/web"]
+	path = addons/web
+	url = https://github.com/OCA/web.git
+	branch = 16.0
