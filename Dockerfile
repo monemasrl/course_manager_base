@@ -1,9 +1,3 @@
-FROM bitnami/git:2.50.1-debian-12-r1 AS base
-RUN mkdir -p /mnt/addons
-RUN git clone https://github.com/monemasrl/course_manager_base.git /mnt/addons && \
-    cd /mnt/addons && \
-    git submodule update --init --recursive
-
 FROM odoo:16.0-20250725
 USER root
 RUN pip3 install python-codicefiscale==0.8.0 vatnumber cachetools cerberus jwt \
@@ -14,4 +8,4 @@ RUN pip3 install python-codicefiscale==0.8.0 vatnumber cachetools cerberus jwt \
 
 USER odoo
 
-COPY --from=base /mnt/addons /mnt/extra-addons
+COPY ./addons /mnt/extra-addons
