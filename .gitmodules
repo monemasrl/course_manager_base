@@ -58,3 +58,7 @@
 	path = addons/web
 	url = https://github.com/OCA/web.git
 	branch = 16.0
+[submodule "addons/search-engine"]
+	path = addons/search-engine
+	url = https://github.com/OCA/search-engine.git
+	branch = 16.0
